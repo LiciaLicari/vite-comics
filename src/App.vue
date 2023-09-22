@@ -25,34 +25,34 @@ export default {
         </div>
         <div class="nav navbar-nav">
           <li class="nav-item">
-            <a href="" class="nav-link active">CHARACTERS</a>
+            <a href="#" class="nav-link active">CHARACTERS</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">COMICS</a>
+            <a href="#" class="nav-link">COMICS</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">MOVIES</a>
+            <a href="#" class="nav-link">MOVIES</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">TV</a>
+            <a href="#" class="nav-link">TV</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">GAMES</a>
+            <a href="#" class="nav-link">GAMES</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">COLLECTIBLES</a>
+            <a href="#" class="nav-link">COLLECTIBLES</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">VIDEOS</a>
+            <a href="#" class="nav-link">VIDEOS</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">FANS</a>
+            <a href="#" class="nav-link">FANS</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">NEWS</a>
+            <a href="#" class="nav-link">NEWS</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">SHOP</a>
+            <a href="#" class="nav-link">SHOP</a>
           </li>
 
         </div>
@@ -64,11 +64,37 @@ export default {
   <main id="app_main">
     <section id="hero_section" class="py-5">
       <div class="container">
-
         <h2>==&gt;Content goes here&lt;==</h2>
       </div>
     </section>
-    <section id="main_menu"></section>
+    <section id="main_menu_section d-flex justify-content-center align-items-center">
+      <ul class="unstyled">
+        <li>
+          <img src="" alt="">
+          <a href="#">DIGITAL COMICS</a>
+        </li>
+        <li>
+          <img src="" alt="">
+          <a href="#">DC MERCHANDISE</a>
+        </li>
+        <li>
+          <img src="" alt="">
+          <a href="#">SUBSCRIPTION</a>
+        </li>
+        <li>
+          <img src="" alt="">
+          <a href="#">COMIC SHOP LOCATOR</a>
+        </li>
+        <li>
+          <img src="" alt="">
+          <a href="#">DC POWER VISA</a>
+        </li>
+
+      
+
+      </ul>
+
+    </section>
   </main>
   <!-- /#app_main -->
   <footer id="app_footer">
