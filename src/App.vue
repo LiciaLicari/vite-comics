@@ -1,23 +1,22 @@
 <script>
-export default{
+export default {
   name: 'App',
-  data(){
+  data() {
     return {
 
     }
   },
   components: {
-//     AppHeader,
-//     AppMain,
-//     AppLink,
-//     AppFooter
- }
+    //     AppHeader,
+    //     AppMain,
+    //     AppLink,
+    //     AppFooter
+  }
 
 }
 </script>
 
 <template>
-
   <header id="app_header">
     <nav class="navbar navbar-expand-lg">
       <div class="container d-flex justify-content-between">
@@ -55,7 +54,7 @@ export default{
           <li class="nav-item">
             <a href="" class="nav-link">SHOP</a>
           </li>
-            
+
         </div>
 
       </div>
@@ -63,8 +62,13 @@ export default{
   </header>
   <!-- /#app_header -->
   <main id="app_main">
-    <section id="hero_section"></section>
-    <section id="menu"></section>
+    <section id="hero_section" class="py-5">
+      <div class="container">
+
+        <h2>==&gt;Content goes here&lt;==</h2>
+      </div>
+    </section>
+    <section id="main_menu"></section>
   </main>
   <!-- /#app_main -->
   <footer id="app_footer">
@@ -72,7 +76,6 @@ export default{
     <section id="social"></section>
   </footer>
   <!-- /#app_footer -->
- 
 </template>
 
 
