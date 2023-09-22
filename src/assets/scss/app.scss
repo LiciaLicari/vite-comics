@@ -1,4 +1,12 @@
-@use '../node_modules/bootstrap/scss/bootstrap.scss';
+@use '../../../node_modules/bootstrap/scss/bootstrap.scss';
+/* Variables */
+$primary: #ffffff;
+$dark: #1c1d1d;
+$dark_light: #303131;
+$accent: #0282f9;
+$footer_link: #797979;
+
+
 
 #app_main {
     height: 600px; // remove later
