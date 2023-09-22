@@ -6,12 +6,12 @@ export default{
 
     }
   },
-//   components: {
+  components: {
 //     AppHeader,
 //     AppMain,
 //     AppLink,
 //     AppFooter
-// }
+ }
 
 }
 </script>
@@ -35,5 +35,5 @@ export default{
 
 
 <style lang = "scss">
-@use './assets/scss/app.scss';
+@use '../assets/scss/app.scss';
 </style>

@@ -1,1 +1,7 @@
-@use '/node_modules/bootstrap/scss/bootstrap.scss';
+@use '../node_modules/bootstrap/scss/bootstrap.scss';
+
+#app_main {
+    height: 600px; // remove later
+    background-color: #ffffff;
+
+  }
