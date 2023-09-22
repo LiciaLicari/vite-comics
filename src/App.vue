@@ -67,32 +67,35 @@ export default {
         <h2>==&gt;Content goes here&lt;==</h2>
       </div>
     </section>
-    <section id="main_menu_section d-flex justify-content-center align-items-center">
-      <ul class="unstyled">
-        <li>
-          <img src="" alt="">
-          <a href="#">DIGITAL COMICS</a>
-        </li>
-        <li>
-          <img src="" alt="">
-          <a href="#">DC MERCHANDISE</a>
-        </li>
-        <li>
-          <img src="" alt="">
-          <a href="#">SUBSCRIPTION</a>
-        </li>
-        <li>
-          <img src="" alt="">
-          <a href="#">COMIC SHOP LOCATOR</a>
-        </li>
-        <li>
-          <img src="" alt="">
-          <a href="#">DC POWER VISA</a>
-        </li>
+    <section id="main_menu_section">
+      <div class="container">
 
-      
-
-      </ul>
+        <ul class="list-unstyled d-flex justify-content-between align-items-center">
+          <li>
+            <img src="" alt="">
+            <a href="#" class="text-decoration-none">DIGITAL COMICS</a>
+          </li>
+          <li>
+            <img src="" alt="">
+            <a href="#" class="text-decoration-none">DC MERCHANDISE</a>
+          </li>
+          <li>
+            <img src="" alt="">
+            <a href="#" class="text-decoration-none">SUBSCRIPTION</a>
+          </li>
+          <li>
+            <img src="" alt="">
+            <a href="#" class="text-decoration-none">COMIC SHOP LOCATOR</a>
+          </li>
+          <li>
+            <img src="" alt="">
+            <a href="#" class="text-decoration-none">DC POWER VISA</a>
+          </li>
+  
+        
+  
+        </ul>
+      </div>
 
     </section>
   </main>
