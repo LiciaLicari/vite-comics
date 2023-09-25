@@ -1,33 +1,121 @@
 @use '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
 /* Variables */
-$primary: #ffffff;
-$dark: #1c1d1d;
-$dark_light: #303131;
-$accent: #0282f9;
-$footer_link: #797979;
+@use './partials/variables' as *;
 
 
-body {
-  font-family: 'Roboto', sans-serif;
+
+
+body{
+  font-family: 'Fira Sans', sans-serif;
 }
 
-.navbar{
-  font-weight: bold;
-}
-.active{
-  color: $accent;
-  border-bottom: 5px solid $accent;
+.cm_active{
+  color: $comics_primary;
+  border-bottom: 5px solid $comics_primary;
 }
 
-#hero_section {
-  background-color: $dark;
-  color: $primary;
+.nav_menu{
+  color: $comics_darker;
+  font-weight: 500;
 }
 
-#main_menu_section{
-  background-color: $accent;
+.hero{
+  background-image: url(/src/assets/img/jumbotron.jpg);
+  background-size: cover;
+  height: 400px;
 }
 
-#main_menu_section a {
-  color: $primary
+.products_bg{
+  background-color: $comics_darker;
+  color: $comics_white;
+  padding: 4rem 0;
+  margin-bottom: 0;
+}
+
+#services{
+  background-color: $comics_primary;
+}
+
+.service_pic{
+  height: 60px;
+  padding-right: 1rem;
+}
+
+.service{
+  color: $comics_white;
+  padding: 3rem 0;
+}
+
+#app_footer{
+  background-image: url(/src/assets/img/footer-bg.jpg);
+  background-size: cover;
+  padding: 3rem 0;
+}
+
+#app_footer h3{
+  color: $comics_white;
+}
+
+#app_footer a{
+  color: $comics_light_dark;
+  text-decoration: none;
+
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+.footer_logo{
+  top: 0;
+  transform: translateY(-25%);
+}
+
+#footer_bot{
+  background-color: $comics_dark;
+}
+
+#footer_bot img{
+  height: 35px;
+  aspect-ratio: 1 / 1;
+  margin-right: 0.5rem;
+  
+}
+
+#footer_bot h3{
+  color: $comics_primary;
+}
+
+.section_title{
+  background-color: $comics_primary;
+  padding: 0.75rem 1rem;
+  display: inline-block;
+  margin-left: 2rem;
+  margin-top: -4rem;
+  position: relative;
+  left: 250px;
+  top: -71px;
+}
+
+.comic_img{
+  width: calc(100% - 2rem);
+}
+
+.comic_img > img{
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: top;
+  
+}
+
+.comic_text{
+  font-size: 14px;
+  width: calc(100% - 2rem);
+  margin: 0;
+  text-align: start;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-top: 1rem;
+
 }

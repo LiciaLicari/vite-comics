@@ -1,109 +1,42 @@
 <script>
+import AppHeader from './components/AppHeader.vue';
+import AppHero from './components/AppHero.vue';
+import AppProducts from './components/AppProducts.vue';
+import AppServices from './components/AppServices.vue';
+import AppFooterTop from './components/AppFooterTop.vue';
+import AppFooterBot from './components/AppFooterBot.vue';
+
 export default {
-  name: 'App',
+  
   data() {
     return {
 
     }
   },
   components: {
-    //     AppHeader,
-    //     AppMain,
-    //     AppLink,
-    //     AppFooter
+    AppHeader,
+    AppHero,
+    AppProducts,
+    AppServices,
+    AppFooterTop,
+    AppFooterBot
   }
 
 }
 </script>
 
 <template>
-  <header id="app_header">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container d-flex justify-content-between">
-        <div class="logo">
-          <img src="./assets/img/dc-logo.png" alt="">
-        </div>
-        <div class="nav navbar-nav">
-          <li class="nav-item">
-            <a href="#" class="nav-link active">CHARACTERS</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">COMICS</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">MOVIES</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">TV</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">GAMES</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">COLLECTIBLES</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">VIDEOS</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">FANS</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">NEWS</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">SHOP</a>
-          </li>
-
-        </div>
-
-      </div>
-    </nav>
-  </header>
+  <AppHeader />
   <!-- /#app_header -->
-  <main id="app_main">
-    <section id="hero_section" class="py-5">
-      <div class="container">
-        <h2>==&gt;Content goes here&lt;==</h2>
-      </div>
-    </section>
-    <section id="main_menu_section">
-      <div class="container">
-
-        <ul class="list-unstyled d-flex justify-content-between align-items-center">
-          <li>
-            <img src="" alt="">
-            <a href="#" class="text-decoration-none">DIGITAL COMICS</a>
-          </li>
-          <li>
-            <img src="" alt="">
-            <a href="#" class="text-decoration-none">DC MERCHANDISE</a>
-          </li>
-          <li>
-            <img src="" alt="">
-            <a href="#" class="text-decoration-none">SUBSCRIPTION</a>
-          </li>
-          <li>
-            <img src="" alt="">
-            <a href="#" class="text-decoration-none">COMIC SHOP LOCATOR</a>
-          </li>
-          <li>
-            <img src="" alt="">
-            <a href="#" class="text-decoration-none">DC POWER VISA</a>
-          </li>
-  
-        
-  
-        </ul>
-      </div>
-
-    </section>
+  <main id="app_main" class="position-relative z-3">
+    <AppHero />
+    <AppProducts />
+    <AppServices />
+    
   </main>
   <!-- /#app_main -->
-  <footer id="app_footer">
-    <section id="site_map"></section>
-    <section id="social"></section>
-  </footer>
+  <AppFooterTop />
+  <AppFooterBot />
   <!-- /#app_footer -->
 </template>
 
